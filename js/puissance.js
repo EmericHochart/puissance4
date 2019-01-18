@@ -157,7 +157,7 @@ function verifVictoire(i,j){
     
     // Affichage Résultat
     if (countLigne>=4||countColonne>=4||countDiag>=4||countAntiDiag>=4){
-        console.log("gagné");
+        
         victoire=true;
         // Affichage Vainqueur
         let gagnant=(player==1)?"Rouge":"Jaune";
@@ -170,7 +170,7 @@ function verifVictoire(i,j){
                let caseElt=document.getElementById("L"+i+"C"+j);
                 caseElt.style.backgroundColor="blue";
                 caseElt.removeEventListener('click',clickEvent);
-               
+              
             };
         };
        
