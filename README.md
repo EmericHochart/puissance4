@@ -7,8 +7,8 @@ Plusieurs fonctionnalités :
     Possibilité de modifier le nombre de lignes et colonnes dans le fichier puisssance.js.  
     Possibilité de recommencer une partie via un bouton à tout moment.  
     Le jeu indique quel joueur a gagné quand la victoire se présente.  
-Les difficultés rencontrées ont été au niveau de l'algorithme : je n'ai pas choisi la mtéhode la plus facile et la plus courte !  
-Un point délicat a été également rencontré avec removeEventListener qui n'accepte pas de fonctions anonyme, j'ai dû repenser le code pour utiliser cette méthode en cas de victore.  
+Les difficultés rencontrées ont été au niveau de l'algorithme : je n'ai pas choisi la méthode la plus facile et la plus courte !  
+Un point délicat a été également rencontré avec removeEventListener qui n'accepte pas de fonctions anonymes, j'ai dû repenser le code pour utiliser cette méthode en cas de victoire.  
 Les améliorations sont nombreuses :  
     1° Graphique bien entendu (le pion qui tombe, des ombres, d'autres couleurs,etc...  
     2° Le code peut être simplifier (changer l'algorithme, quelques parties redondantes, des variables sont dupliquées, des fonctions peuvent être regroupées
